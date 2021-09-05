@@ -1,0 +1,18 @@
+.app{
+    width: 100%;
+    min-height: 100vh;
+    background-color: $bgcolor;
+    color: $textcolor;
+    // position: relative;
+    font-family: "Mulish", sans-serif ;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1023px){
+    $body_padding: 50px;
+
+}
